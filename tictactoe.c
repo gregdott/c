@@ -1,7 +1,14 @@
+/*
+Author: Gregory Dott 29-04-2023
+Basic tictactoe game for command line
+*/
+
 #include <stdio.h>
 #include <stdbool.h>
 
 #define clear() printf("\033[H\033[J")
+
+
 
 void drawBoard(int board[9]);
 bool checkForWin(int board[9]);
